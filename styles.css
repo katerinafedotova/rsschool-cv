@@ -1,0 +1,40 @@
+.CV_photo {
+    width: 200px;
+}
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.contact_info {
+    margin-left: 100px;
+}
+
+main {
+    max-width: 1024px;
+    margin: 20px auto;
+    border: rgb(14 14 121) 5px solid;
+    padding: 20px;
+}
+h1, h2 {
+    color: rgb(9 9 128);
+}
+
+.profile {
+    text-align: justify;
+}
+.interactive_link {
+    text-decoration: none;
+}
+.interactive_link:hover, .interactive_link:focus, .interactive_link:active {
+    text-decoration: underline;
+}
+.list_items {
+    padding-bottom: 10px;
+    list-style-type: circle;
+}
+
+.contact_greater {
+    font-size: larger;
+}
